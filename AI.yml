@@ -1,5 +1,6 @@
 name: AI
 channels:
+- soumith
 - defaults
 dependencies:
 - alabaster=0.7.10=py35h6fb19ab_0
@@ -20,6 +21,7 @@ dependencies:
 - entrypoints=0.2.3=py35h48174a2_2
 - expat=2.2.5=he0dffb1_0
 - fontconfig=2.12.4=h88586e7_1
+- freeglut=2.8.1=0
 - freetype=2.8=hab7d2ae_1
 - glib=2.53.6=h5d9569c_2
 - gmp=6.1.2=h6c8ec71_1
@@ -79,12 +81,12 @@ dependencies:
 - pyflakes=1.6.0=py35hd1da72e_0
 - pygments=2.2.0=py35h0f41973_0
 - pylint=1.7.4=py35h319e60b_0
+- pyopengl=3.1.1a1=np113py35_0
 - pyopenssl=17.2.0=py35h1d2a76c_0
 - pyqt=5.6.0=py35h0e41ada_5
 - pysocks=1.6.7=py35h6aefbb0_1
 - python=3.5.4=h417fded_24
 - python-dateutil=2.6.1=py35h90d5b31_1
-- pytorch=0.2.0=py35cuda7.5cudnn5.1_0
 - pytz=2017.3=py35hb13c558_0
 - pyzmq=16.0.3=py35ha889422_0
 - qt=5.6.2=h974d657_12
@@ -107,7 +109,6 @@ dependencies:
 - sqlite=3.20.1=hb898158_2
 - testpath=0.3.1=py35had42eaf_0
 - tk=8.6.7=hc745277_3
-- torchvision=0.1.8=py35_0
 - tornado=4.5.2=py35hf879e1d_0
 - traitlets=4.3.2=py35ha522a97_0
 - typing=3.6.2=py35hcadae7e_0
@@ -119,10 +120,14 @@ dependencies:
 - xz=5.2.3=h55aa19d_2
 - zeromq=4.2.2=hbedb6e5_2
 - zlib=1.2.11=ha838bed_2
+- cuda80=1.0=0
+- pytorch=0.2.0=py35hb1547bd_4cu80
+- torchvision=0.1.9=py35h72e4c6f_1
 - pip:
   - ipython-genutils==0.2.0
   - jupyter-client==5.1.0
   - jupyter-core==4.4.0
   - prompt-toolkit==1.0.15
-  - torch==0.2.0.post0
+  - pyqt5==5.9.2
+  - torch==0.2.0.post4
 prefix: /home/karol/anaconda3/envs/AI
