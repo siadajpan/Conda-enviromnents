@@ -15,6 +15,7 @@ dependencies:
 - cryptography=2.0.3=py35hef72dfd_1
 - cudatoolkit=7.5=2
 - cudnn=5.1.10=cuda7.5_0
+- cycler=0.10.0=py35hc4d5149_0
 - dbus=1.10.22=h3b5a359_0
 - decorator=4.1.2=py35h3a268aa_0
 - docutils=0.14=py35hd11081d_0
@@ -55,6 +56,7 @@ dependencies:
 - libxcb=1.12=hcd93eb1_4
 - libxml2=2.9.4=h2e8b1d7_6
 - markupsafe=1.0=py35h4f4fcf6_1
+- matplotlib=2.1.0=py35h2cbf27e_0
 - mccabe=0.6.1=py35hd8c1f23_1
 - mistune=0.8.1=py35h9251d8c_0
 - mkl=2018.0.1=h19d6760_4
@@ -83,6 +85,7 @@ dependencies:
 - pylint=1.7.4=py35h319e60b_0
 - pyopengl=3.1.1a1=np113py35_0
 - pyopenssl=17.2.0=py35h1d2a76c_0
+- pyparsing=2.2.0=py35h041ed72_1
 - pyqt=5.6.0=py35h0e41ada_5
 - pysocks=1.6.7=py35h6aefbb0_1
 - python=3.5.4=h417fded_24
