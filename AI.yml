@@ -1,12 +1,18 @@
 name: AI
 channels:
 - anaconda
+- conda-forge
 - soumith
 - defaults
 dependencies:
 - cudatoolkit=8.0=3
 - cudnn=6.0.21=cuda8.0_0
 - nccl=1.3.4=cuda8.0_1
+- keras=2.0.9=py35_0
+- libgpuarray=0.7.5=0
+- mako=1.0.7=py35_0
+- pygpu=0.7.5=py35_0
+- theano=0.9.0=py35_1
 - alabaster=0.7.10=py35h6fb19ab_0
 - asn1crypto=0.23.0=py35h4ab26a5_0
 - astroid=1.5.3=py35h1d0c565_0
@@ -49,7 +55,6 @@ dependencies:
 - jsonschema=2.6.0=py35h4395190_0
 - jupyter_client=5.1.0=py35h2bff583_0
 - jupyter_core=4.4.0=py35ha89e94b_0
-- keras=2.0.8=py35h4bddecc_0
 - lazy-object-proxy=1.3.1=py35h4c720c6_0
 - libedit=3.1=heed3624_0
 - libffi=3.2.1=hd88cf55_4
