@@ -1,7 +1,7 @@
 name: AI
 channels:
-- soumith
 - anaconda
+- soumith
 - defaults
 dependencies:
 - cudatoolkit=8.0=3
@@ -49,6 +49,7 @@ dependencies:
 - jsonschema=2.6.0=py35h4395190_0
 - jupyter_client=5.1.0=py35h2bff583_0
 - jupyter_core=4.4.0=py35ha89e94b_0
+- keras=2.0.8=py35h4bddecc_0
 - lazy-object-proxy=1.3.1=py35h4c720c6_0
 - libedit=3.1=heed3624_0
 - libffi=3.2.1=hd88cf55_4
@@ -119,6 +120,8 @@ dependencies:
 - sphinxcontrib-websupport=1.0.1=py35h3537809_1
 - spyder=3.2.4=py35h27cea69_0
 - sqlite=3.20.1=hb898158_2
+- tensorflow=1.3.0=0
+- tensorflow-base=1.3.0=py35h79a3156_1
 - tensorflow-gpu=1.3.0=0
 - tensorflow-gpu-base=1.3.0=py35cuda8.0cudnn6.0_1
 - tensorflow-tensorboard=0.1.5=py35_0
@@ -146,6 +149,5 @@ dependencies:
   - jupyter-core==4.4.0
   - prompt-toolkit==1.0.15
   - pyqt5==5.9.2
-  - tensorflow==1.3.0
   - torch==0.2.0.post4
 prefix: /home/karol/anaconda3/envs/AI
