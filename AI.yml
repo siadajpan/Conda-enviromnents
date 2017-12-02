@@ -1,20 +1,24 @@
 name: AI
 channels:
 - soumith
+- anaconda
 - defaults
 dependencies:
+- cudatoolkit=8.0=3
+- cudnn=6.0.21=cuda8.0_0
+- nccl=1.3.4=cuda8.0_1
 - alabaster=0.7.10=py35h6fb19ab_0
 - asn1crypto=0.23.0=py35h4ab26a5_0
 - astroid=1.5.3=py35h1d0c565_0
 - babel=2.5.0=py35ha5fc564_0
-- bleach=2.0.0=py35h055c768_0
+- backports=1.0=py35hd471ac7_1
+- backports.weakref=1.0rc1=py35_0
+- bleach=1.5.0=py35_0
 - ca-certificates=2017.08.26=h1d4fec5_0
 - certifi=2017.11.5=py35h9749603_0
 - cffi=1.10.0=py35h796c292_1
 - chardet=3.0.4=py35hb6e9ddf_1
 - cryptography=2.0.3=py35hef72dfd_1
-- cudatoolkit=7.5=2
-- cudnn=5.1.10=cuda7.5_0
 - cycler=0.10.0=py35hc4d5149_0
 - dbus=1.10.22=h3b5a359_0
 - decorator=4.1.2=py35h3a268aa_0
@@ -30,7 +34,7 @@ dependencies:
 - gstreamer=1.12.2=h4f93127_0
 - h5py=2.7.1=py35h8d53cdc_0
 - hdf5=1.10.1=h9caa474_1
-- html5lib=0.999999999=py35h0543385_0
+- html5lib=0.9999999=py35_0
 - icu=58.2=h9c2bf20_1
 - idna=2.6=py35h8605a33_1
 - imagesize=0.7.1=py35hf008fae_0
@@ -45,7 +49,6 @@ dependencies:
 - jsonschema=2.6.0=py35h4395190_0
 - jupyter_client=5.1.0=py35h2bff583_0
 - jupyter_core=4.4.0=py35ha89e94b_0
-- keras=2.0.8=py35h4bddecc_0
 - lazy-object-proxy=1.3.1=py35h4c720c6_0
 - libedit=3.1=heed3624_0
 - libffi=3.2.1=hd88cf55_4
@@ -59,6 +62,7 @@ dependencies:
 - libtiff=4.0.9=h28f6b97_0
 - libxcb=1.12=hcd93eb1_4
 - libxml2=2.9.4=h2e8b1d7_6
+- markdown=2.6.9=py35_0
 - markupsafe=1.0=py35h4f4fcf6_1
 - matplotlib=2.1.0=py35h2cbf27e_0
 - mccabe=0.6.1=py35hd8c1f23_1
@@ -66,7 +70,6 @@ dependencies:
 - mkl=2018.0.1=h19d6760_4
 - nbconvert=5.3.1=py35hc5194e3_0
 - nbformat=4.4.0=py35h12e6e07_0
-- nccl=1.3.4=cuda7.5_1
 - ncurses=6.0=h9df7e31_2
 - numpy=1.12.1=py35hca0bb5e_1
 - numpydoc=0.7.0=py35he089a57_0
@@ -116,7 +119,9 @@ dependencies:
 - sphinxcontrib-websupport=1.0.1=py35h3537809_1
 - spyder=3.2.4=py35h27cea69_0
 - sqlite=3.20.1=hb898158_2
-- tensorflow=1.1.0=np112py35_0
+- tensorflow-gpu=1.3.0=0
+- tensorflow-gpu-base=1.3.0=py35cuda8.0cudnn6.0_1
+- tensorflow-tensorboard=0.1.5=py35_0
 - testpath=0.3.1=py35had42eaf_0
 - tk=8.6.7=hc745277_3
 - tornado=4.5.2=py35hf879e1d_0
@@ -141,5 +146,6 @@ dependencies:
   - jupyter-core==4.4.0
   - prompt-toolkit==1.0.15
   - pyqt5==5.9.2
+  - tensorflow==1.3.0
   - torch==0.2.0.post4
 prefix: /home/karol/anaconda3/envs/AI
