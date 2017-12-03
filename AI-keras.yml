@@ -1,14 +1,13 @@
-name: AI
+name: AI-keras
 channels:
 - anaconda
 - conda-forge
-- soumith
 - defaults
 dependencies:
 - cudatoolkit=8.0=3
 - cudnn=6.0.21=cuda8.0_0
+- keras-gpu=2.0.8=py35ha2fb4ba_0
 - nccl=1.3.4=cuda8.0_1
-- keras=2.0.9=py35_0
 - libgpuarray=0.7.5=0
 - mako=1.0.7=py35_0
 - pygpu=0.7.5=py35_0
@@ -125,7 +124,6 @@ dependencies:
 - sphinxcontrib-websupport=1.0.1=py35h3537809_1
 - spyder=3.2.4=py35h27cea69_0
 - sqlite=3.20.1=hb898158_2
-- tensorflow=1.3.0=0
 - tensorflow-base=1.3.0=py35h79a3156_1
 - tensorflow-gpu=1.3.0=0
 - tensorflow-gpu-base=1.3.0=py35cuda8.0cudnn6.0_1
@@ -145,14 +143,15 @@ dependencies:
 - yaml=0.1.7=had09818_2
 - zeromq=4.2.2=hbedb6e5_2
 - zlib=1.2.11=ha838bed_2
-- cuda80=1.0=0
-- pytorch=0.2.0=py35hb1547bd_4cu80
-- torchvision=0.1.9=py35h72e4c6f_1
 - pip:
+  - future==0.16.0
+  - gym==0.9.4
   - ipython-genutils==0.2.0
   - jupyter-client==5.1.0
   - jupyter-core==4.4.0
+  - keras==2.0.8
   - prompt-toolkit==1.0.15
+  - pyglet==1.2.4
   - pyqt5==5.9.2
-  - torch==0.2.0.post4
-prefix: /home/karol/anaconda3/envs/AI
+  - tensorflow==1.3.0
+prefix: /home/karol/anaconda3/envs/AI-keras
